@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>HTTP_Client</n>
+            <c>pear.net</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD</l>
+            <s>
+                Easy way to perform multiple HTTP requests and process their results
+            </s>
+            <d>
+                The HTTP_Client class wraps around HTTP_Request and provides a higher level interface for performing multiple HTTP requests. Features: * Manages cookies and referrers between requests * Handles HTTP redirection * Has methods to set default headers and request parameters * Implements the Subject-Observer design pattern: the base class sends events to listeners that do the response processing.
+            </d>
+            <r xlink:href="/rest/r/http_client"/>
+        </p>
+        <a>
+            <r>
+                <v>1.2.1</v>
+                <s>stable</s>
+            </r>
+        </a>
+        <deps>
+            <v>1.2.1</v>
+            <d>
+                a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:12:"HTTP_Request";s:7:"channel";s:8:"pear.net";s:3:"min";s:5:"1.4.0";}}}
+            </d>
+        </deps>
+    </pi>
+    <pi>
+        <p>
+            <n>HTTP_Request</n>
+            <c>pear.net</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD</l>
+            <s>Provides an easy way to perform HTTP requests</s>
+            <d>
+                Supports GET/POST/HEAD/TRACE/PUT/DELETE, Basic authentication, Proxy, Proxy Authentication, SSL, file uploads etc.
+            </d>
+            <r xlink:href="/rest/r/http_request"/>
+        </p>
+        <a>
+            <r>
+                <v>1.4.0</v>
+                <s>stable</s>
+            </r>
+        </a>
+        <deps>
+            <v>1.4.0</v>
+            <d>
+                a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.net";s:3:"min";s:6:"1.0.12";}i:1;a:3:{s:4:"name";s:10:"Net_Socket";s:7:"channel";s:12:"pear.dev.loc";s:3:"min";s:5:"1.0.2";}}}}
+            </d>
+        </deps>
+    </pi></f>
